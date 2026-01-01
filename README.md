@@ -1,59 +1,53 @@
-# OIBSIP_DataAnalytics_task1
-📱 Android App Market Analysis — README
+🛍️ Retail Sales Data Analysis 
+
 🎯 Objective
 
-The objective of this task was to analyze the Android app ecosystem using publicly available datasets to understand how app categories, user ratings, installs, pricing, and user sentiment influence app performance and market positioning. The focus was on transforming raw app metadata and review text into meaningful insights that highlight market dynamics and help identify factors that contribute to app visibility and user reception.
+The goal of this task was to analyze retail sales data to uncover spending patterns, revenue trends, and category performance. By transforming raw transactional data into meaningful insights, the objective was to support data-driven decisions around product performance, customer behavior, and business growth strategies.
 
 📝 Steps Performed
 
-1. Data Loading & Inspection
+1. Data Loading & Initial Assessment
 
-Loaded apps.csv and user_reviews.csv datasets
+Imported the retail dataset into the working environment
 
-Checked dataset shapes, previewed samples, validated column types
+Displayed structure, shape, and field descriptions to understand data components
 
 2. Data Cleaning & Preparation
 
-Converted Installs, Price, and Size into numeric formats
+Checked and handled missing values
 
-Standardized Size into MB and cleaned pricing symbols
+Standardized data types where required
 
-Removed duplicate listings based on App and Category
+Removed inconsistencies or formatting issues to maintain analytical accuracy
 
-Dropped rows with missing critical values like Rating
+3. Feature Understanding & Transformation
 
-Converted Rating to numeric for accurate analysis
+Extracted relevant features such as category, quantity, price, and dates
 
-3. Exploratory Insights
+Created calculated metrics like revenue, average spend, and monthly totals
 
-Visualized category-wise app distribution to identify competitive vs niche areas
+4. Exploratory Data Analysis (EDA)
 
-Plotted rating distribution to observe quality thresholds
+Analyzed spending distribution across customers and categories
 
-Analyzed installs vs price to explore user willingness to pay
+Studied month-over-month revenue patterns
 
-4.Sentiment Analysis Integration
+Identified top-selling products and high-performing periods
 
-Calculated sentiment polarity scores from user reviews using TextBlob
+Explored customer buying behavior through aggregated metrics
 
-Merged sentiment data with app metadata to correlate perception and rating
+5. Visualization & Insight Extraction
 
-5.Insight Extraction
+Created charts to visualize seasonal patterns and category contribution
 
-Identified price–sentiment trends and category-wise market patterns
-
-Highlighted quality thresholds associated with install growth
+Summarized findings to highlight opportunities for product focus and promotions
 
 🛠 Tools Used
 
-Languages & Libraries: Python, Pandas, NumPy
+Python: Pandas, NumPy, Matplotlib, Seaborn
 
-Visualization: Matplotlib, Seaborn, Plotly
+Environment: Jupyter Notebook 
 
-Text Processing: TextBlob
+📌 Outcome
 
-Data Sources: apps.csv, user_reviews.csv
-
-📌 Outcome 
-
-The analysis revealed meaningful patterns about the Android app market. Competitive categories like Games and Family offer reach but require strong differentiation, while niche categories show opportunity for visibility with less competition. Maintaining a rating near 4.2 or above appears to support install growth, while pricing alone does not guarantee better perception — users evaluate experience first. Integrating sentiment with ratings confirmed that user mood and star ratings are related but not identical, emphasizing the importance of quality and retention before monetization.
+The analysis revealed clear insights into revenue trends and customer spending behavior. Certain product categories consistently generated higher revenue, while seasonal shifts influenced monthly performance. These findings support decisions on inventory planning, promotional timing, and product prioritization, enabling more targeted business strategies based on actual demand patterns.
