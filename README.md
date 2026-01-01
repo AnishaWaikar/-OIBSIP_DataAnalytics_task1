@@ -6,13 +6,13 @@ The objective of this task was to analyze the Android app ecosystem using public
 
 📝 Steps Performed
 
-Data Loading & Inspection
+1. Data Loading & Inspection
 
 Loaded apps.csv and user_reviews.csv datasets
 
 Checked dataset shapes, previewed samples, validated column types
 
-Data Cleaning & Preparation
+2. Data Cleaning & Preparation
 
 Converted Installs, Price, and Size into numeric formats
 
@@ -24,7 +24,7 @@ Dropped rows with missing critical values like Rating
 
 Converted Rating to numeric for accurate analysis
 
-Exploratory Insights
+3. Exploratory Insights
 
 Visualized category-wise app distribution to identify competitive vs niche areas
 
@@ -32,13 +32,13 @@ Plotted rating distribution to observe quality thresholds
 
 Analyzed installs vs price to explore user willingness to pay
 
-Sentiment Analysis Integration
+4.Sentiment Analysis Integration
 
 Calculated sentiment polarity scores from user reviews using TextBlob
 
 Merged sentiment data with app metadata to correlate perception and rating
 
-Insight Extraction
+5.Insight Extraction
 
 Identified price–sentiment trends and category-wise market patterns
 
