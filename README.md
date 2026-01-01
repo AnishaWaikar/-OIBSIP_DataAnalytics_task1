@@ -1,4 +1,4 @@
-# -OIBSIP_DataAnalytics_task1
+# OIBSIP_DataAnalytics_task1
 📱 Android App Market Analysis — README
 🎯 Objective
 
@@ -54,6 +54,6 @@ Text Processing: TextBlob
 
 Data Sources: apps.csv, user_reviews.csv
 
-📌 Outcome (Brief)
+📌 Outcome 
 
 The analysis revealed meaningful patterns about the Android app market. Competitive categories like Games and Family offer reach but require strong differentiation, while niche categories show opportunity for visibility with less competition. Maintaining a rating near 4.2 or above appears to support install growth, while pricing alone does not guarantee better perception — users evaluate experience first. Integrating sentiment with ratings confirmed that user mood and star ratings are related but not identical, emphasizing the importance of quality and retention before monetization.
